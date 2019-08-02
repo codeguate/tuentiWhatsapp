@@ -1474,3 +1474,33 @@ img.img_why {
     padding-left: 7%;
   }
 }
+.mobil{
+  display: none;
+}
+@media only screen and (max-width: 1080px){
+  .mobil{
+    display: block;
+  }
+  .img-pc{
+    display: none;
+  }
+}
+.text-mas{
+  font-family: Catamaran-Bold;
+  color: #f84c64;
+  font-size: 4em;
+  text-align: center;
+}
+.new-combo{
+  font-family: Catamaran;
+  font-weight: 600;
+  background-color: #7a5fbc;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  padding: 4px 5px;
+  border-radius: 4px;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
